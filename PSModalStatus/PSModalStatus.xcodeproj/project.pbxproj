@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0F76DD9323E71C5200C0A4CD /* PSModalStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F76DD9123E71C5200C0A4CD /* PSModalStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F76DD9A23E71EEB00C0A4CD /* PSModalStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F76DD9923E71EEB00C0A4CD /* PSModalStatusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F76DD8E23E71C5200C0A4CD /* PSModalStatus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSModalStatus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F76DD9123E71C5200C0A4CD /* PSModalStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSModalStatus.h; sourceTree = "<group>"; };
 		0F76DD9223E71C5200C0A4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F76DD9923E71EEB00C0A4CD /* PSModalStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSModalStatusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +32,7 @@
 		0F76DD8423E71C5200C0A4CD = {
 			isa = PBXGroup;
 			children = (
+				0F76DD9923E71EEB00C0A4CD /* PSModalStatusView.swift */,
 				0F76DD9023E71C5200C0A4CD /* PSModalStatus */,
 				0F76DD8F23E71C5200C0A4CD /* Products */,
 			);
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					0F76DD8D23E71C5200C0A4CD = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F76DD9A23E71EEB00C0A4CD /* PSModalStatusView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		0F76DD9723E71C5200C0A4CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -277,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.theprof.PSModalStatus;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +292,7 @@
 		0F76DD9823E71C5200C0A4CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
