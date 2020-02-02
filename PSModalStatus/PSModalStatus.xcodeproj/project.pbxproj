@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F76DD9323E71C5200C0A4CD /* PSModalStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F76DD9123E71C5200C0A4CD /* PSModalStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F76DD9A23E71EEB00C0A4CD /* PSModalStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F76DD9923E71EEB00C0A4CD /* PSModalStatusView.swift */; };
+		0F76DD9C23E71F8200C0A4CD /* PSModalStatusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F76DD9B23E71F8200C0A4CD /* PSModalStatusView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		0F76DD9123E71C5200C0A4CD /* PSModalStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSModalStatus.h; sourceTree = "<group>"; };
 		0F76DD9223E71C5200C0A4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F76DD9923E71EEB00C0A4CD /* PSModalStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSModalStatusView.swift; sourceTree = "<group>"; };
+		0F76DD9B23E71F8200C0A4CD /* PSModalStatusView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSModalStatusView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 		0F76DD8423E71C5200C0A4CD = {
 			isa = PBXGroup;
 			children = (
+				0F76DD9B23E71F8200C0A4CD /* PSModalStatusView.xib */,
 				0F76DD9923E71EEB00C0A4CD /* PSModalStatusView.swift */,
 				0F76DD9023E71C5200C0A4CD /* PSModalStatus */,
 				0F76DD8F23E71C5200C0A4CD /* Products */,
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F76DD9C23E71F8200C0A4CD /* PSModalStatusView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
